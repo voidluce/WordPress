@@ -30,7 +30,7 @@ jobs:
     - name: Upload to Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: autorelease  # 使用固定标签名称
+        tag_name: WordPress-6.8.1  # 使用固定标签名称
         files: WordPress-6.8.1.zip
         replace_existing: true  # 替换现有版本
         generate_release_notes: false  # 不生成发布说明
